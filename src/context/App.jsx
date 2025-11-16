@@ -2,11 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './AuthContext';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Products from './pages/Products';
-import ProductDetail from './pages/ProductDetail';
-import Login from './pages/Login';
-import Register from './pages/Register';
+import Home from '../pages/Home';
+import Products from '../pages/Products';
+import ProductDetail from '../pages/ProductDetail';
+import Login from '../pages/Login';
+import Register from '../pages/Register';
 import './App.css';
 
 function App() {
